@@ -53,21 +53,13 @@
             <p class="nomber">— №1 —</p>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <img class="image" src="" alt="картинка с изображением части городка">
-          </li>
-          <li class="advantages-item">
             <p class="advantages-title">Жильё</p>
             <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-          </li>
-          <li class="advantages-item">
             <p class="advantages-title">Еда</p>
             <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-          </li>
-          <li class="advantages-item">
             <p class="advantages-title">Сувениры</p>
             <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
-        </ul>
-        <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Там есть мост дьявола </h3>
             <p class="nomber">— №2 —</p>
@@ -95,17 +87,37 @@
         <h2 class="search-title">Заинтересовались? </h2>
         <p class="search-date">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="button" href="#">посик гостиницы в седоне </a>
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="booking">поиск гостиницы в седоне</p>
+          <p class="form-date">
+            <label for="date">Дата заезда</label>
+            <input type="text" id="date" name="date" placeholder="27 апреля 2020">
+          </p>
+          <p class="form-date">
+            <label for="date-out">Дата выезда</label>
+            <input type="text" id="date-out" name="date-out" placeholder="1 сентября 2021">
+          </p>
+          <p>Взрослые:
+            <input type="button" value="-" >
+            <input type="text" value="2">
+            <input type="button" value="+" >
+          </p>
+          <p>Дети:
+            <input type="button" value="-"  >
+            <input type="text" value="1">
+            <input type="button" value="+" >
+          </p>
+          <button class="button" type="submit">найти</button>
+        </form>
       </section>
       <footer class="page-footer">
         <section class="subscription">
           <h2 class="subscription-title">Подпишитесь на рассылку </h2>
           <p class="information">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="subscription-email">Email</label>
+            <label for="subscription-label">Email</label>
             <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-            <button class="subscription-button" type="submit">
-              <span class="button" href="#">Подписаться</span>
-            </button>
+            <button class="subscription-button" type="submit">Подписаться</button>
           </form>
           <h2 class="visually-hidden">Контакты </h2>
           <section class="footer-social">
@@ -122,7 +134,7 @@
               </li>
               <li>
                 <a class="social-list-link" href="http://wwww.youtube.com/HTMLAcademyRUS">
-                  <span class="visually-hidden">youtube</span>
+                  <span class="visually-hidden">Youtube</span>
                 </a>
               </li>
             </ul>
