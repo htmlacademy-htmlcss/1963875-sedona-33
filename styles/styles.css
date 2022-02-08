@@ -14,7 +14,7 @@
   font-display: swap;
 }
 
-.body {
+body {
   font-family: "PT Sans";
   font-style: normal;
   color: #242424;
@@ -182,8 +182,8 @@
 
 .main {
   background-image: url("../images/icon/Vector(3).svg"), url("../images/index-background.jpg");
-  background-repeat: no-repeat;
   background-position: 0px 428px, 0px 0px;
+  background-repeat: no-repeat;
 }
 
 .image-logo {
