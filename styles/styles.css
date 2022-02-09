@@ -34,6 +34,12 @@ body {
   text-decoration: none;
 }
 
+.extra-class {
+  color:#FFFFFF ;
+  background-color: #756257 ;
+  text-transform: uppercase;
+}
+
 .maim-inner {
   background-image: url("../images/catalog-background-1.jpg");
   background-repeat: no-repeat;
@@ -207,6 +213,35 @@ body {
   font-weight: 400;
 }
 
+.background-text {
+  background-color: #83B3D3;
+}
+
+.advantages-title-block {
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nomber-block {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.advantages-description-block {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
@@ -220,7 +255,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #000000;
+  color: #333333;
   font-weight: 400;
 }
 
@@ -228,7 +263,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #000000;
+  color: #333333;
   font-weight: 400;
 }
 
@@ -293,6 +328,7 @@ body {
 .subscription-button {
   color: #FFFFFF;
   background-color: #83B3D3;
+  text-transform: uppercase;
 }
 
 .footer-phone {
@@ -302,4 +338,44 @@ body {
   color: #000000;
   font-weight: 400;
   text-decoration: none;
+}
+
+.booking {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.search-form {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.comment {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #FF5757;
+}
+
+.button-mw {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-transform: uppercase;
+}
+
+.input {
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #F2F2F2;
 }
