@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans";
   font-style: normal;
   color: #242424;
@@ -24,6 +32,36 @@ body {
 .page-header-logo {
   color: #000000;
   background-color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.site-navigation {
+  width: 530px;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs-net {
+  display: flex;
+}
+
+.parameters {
+  display: flex;
+  width: 1057px;
+}
+
+.results-list {
+  display: flex;
+}
+
+.user-navigation {
+  max-width: 300px;
+  margin-left: auto;
 }
 
 .navigation-link {
@@ -40,9 +78,60 @@ body {
   text-transform: uppercase;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
 .maim-inner {
   background-image: url("../images/catalog-background-1.jpg");
   background-repeat: no-repeat;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.advantages-net {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.advantages-title-block {
+  width: 400px;
+}
+
+.advantages-title-some {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-title {
+  width: 400px;
+}
+
+.advantages-net345 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-phone {
+  width: 720px;
 }
 
 .inner-header-title {
@@ -299,7 +388,7 @@ body {
   text-decoration: none;
 }
 
-.subscription {
+.subscription-extra {
   background-image: url("../images/catalog-background-1.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -309,11 +398,29 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscription-title-extra {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
   color: #FFFFFF;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .information {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  font-weight: 400;
+}
+
+.information-extra {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
@@ -323,6 +430,11 @@ body {
 
 .subscription-form {
   text-align: center;
+}
+
+.field {
+  color: #000000;
+  background-color: #F2F2F2;
 }
 
 .subscription-button {
@@ -377,5 +489,20 @@ body {
   line-height: 40px;
   font-weight: 700;
   color: #000000;
-  background-color: #F2F2F2;
+  background-color: #F2F2F2
+  ;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+.button-apply {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-transform: uppercase;
+}
+
+.button-reset {
+  color: #FFFFFF;
 }
