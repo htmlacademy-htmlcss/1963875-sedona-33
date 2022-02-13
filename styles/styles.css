@@ -30,38 +30,13 @@ body {
 }
 
 .page-header-logo {
-  color: #000000;
-  background-color: #ffffff;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
-}
-
-.site-navigation {
-  width: 530px;
-  margin: 0;
-  padding: 0;
-}
-
-.breadcrumbs-net {
-  display: flex;
-}
-
-.parameters {
-  display: flex;
-  width: 1057px;
-}
-
-.results-list {
-  display: flex;
-}
-
-.user-navigation {
-  max-width: 300px;
-  margin-left: auto;
 }
 
 .navigation-link {
@@ -82,7 +57,7 @@ body {
   flex-grow: 1;
 }
 
-.maim-inner {
+.page-container {
   background-image: url("../images/catalog-background-1.jpg");
   background-repeat: no-repeat;
 }
@@ -90,6 +65,13 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .advantages-net {
@@ -101,28 +83,37 @@ body {
   width: 1200px;
 }
 
-.advantages-title-block {
-  width: 400px;
-}
-
-.advantages-title-some {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.filters-group-hostels {
   display: flex;
   justify-content: space-between;
 }
 
-.advantages-title {
-  width: 400px;
+.filters-fieldset {
+  margin-left: 71px;
+  margin-right: 67px;
 }
 
-.advantages-net345 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.filters-group {
+  margin-right: 816px;
+}
+
+.filters-list {
+  width: 150px;
+}
+
+.sorting {
+ display: flex;
+}
+
+.results-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.results-item {
+  width: 340px;
+  margin-right: 18px;
 }
 
 .footer-social {
@@ -275,10 +266,11 @@ body {
   color: #333333;
 }
 
-.main {
+.image-logo {
   background-image: url("../images/icon/Vector(3).svg"), url("../images/index-background.jpg");
   background-position: 0px 428px, 0px 0px;
   background-repeat: no-repeat;
+  height: 485px;
 }
 
 .image-logo {
@@ -389,7 +381,7 @@ body {
 }
 
 .subscription-extra {
-  background-image: url("../images/catalog-background-1.jpg");
+  background-image: url("../images/background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
