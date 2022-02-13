@@ -19,7 +19,7 @@
             <a class="navigation-link" href="about.html">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="hotels.html">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="user-navigation">
@@ -41,7 +41,8 @@
         </ul>
       </nav>
     </header>
-    <main class="main">
+    <main class="main-container main">
+      <div class="page-container">
       <div class="image-logo">
         <img class="image" src="images/welcome.svg" alt="вид на Каньон">
       </div>
@@ -51,26 +52,36 @@
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
+            <div class="advantages-net">
             <div class="background-text">
             <h3 class="advantages-title-block">Настоящий городок </h3>
             <p class="nomber-block">— №1 —</p>
             <p class="advantages-description-block">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
             <img class="image" src="images/photo-1.jpg" width="800" height="384" alt="картинка с изображением части городка">
-            <p class="advantages-title">Жильё</p>
+            </div>
+          </li>
+          <li class="advantages-item">
+            <h3 class="advantages-title">Жильё</p>
             <p class="advantages-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+          <li class="advantages-item">
             <p class="advantages-title">Еда</p>
             <p class="advantages-description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="advantages-item">
             <p class="advantages-title">Сувениры</p>
             <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
           </li>
           <li class="advantages-item">
+            <div class="advantages-net">
+              <img class="image" src="images/photo-2.jpg" width="800" height="384"alt="картинка с изображением каменного моста">
             <div class="background-text">
             <h3 class="advantages-title-block">Там есть мост дьявола </h3>
             <p class="nomber-block">— №2 —</p>
             <p class="advantages-description-block">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
             </div>
-            <img class="image" src="images/photo-2.jpg" width="800" height="384"alt="картинка с изображением каменного моста">
+            </div>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь </h3>
@@ -121,9 +132,9 @@
         </form>
       </section>
       <footer class="page-footer">
-        <section class="subscription">
-          <h2 class="subscription-title">Подпишитесь на рассылку </h2>
-          <p class="information">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <section class="subscription subscription-extra">
+          <h2 class="subscription-title subscription-title-extra">Подпишитесь на рассылку </h2>
+          <p class="information information-extra">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
             <label for="subscription-label">Email</label>
             <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
@@ -152,6 +163,7 @@
             <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12 </a>
             <a class="htmlacademy-link" href="https://htmlacademy.ru/">.htmlacademy</a>
           </section>
+        </div>
     </main>
     </footer>
   </body>
