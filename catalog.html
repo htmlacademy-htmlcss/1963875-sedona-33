@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
+    <div class="page-container">
     <header class="page-header-logo">
       <a class="navigation-logo" href="index.html">
         <img class="logo" src="images/icon/logo.svg" width="139" height="70" alt="Логотип Седона">
@@ -41,9 +42,8 @@
         </ul>
       </nav>
     </header>
-    <main class="maim-inner main-container">
-      <div class="page-container">
-      <header class="inner-header">
+    <main class="main-inner main-container">
+      <div class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -51,8 +51,6 @@
           </li>
           <li class="breadcrumbs-item">Гостиницы</li>
         </ul>
-      </header>
-      <section class="features-hostel">
         <h2 class="visually-hidden">Услуги гостиницы</h2>
         <form class="filters" action="https://echo.htmlacademy.ru/" method="get">
           <div class="filters-group-hostels">
@@ -90,9 +88,15 @@
               </li>
             </ul>
           </fieldset>
+          <div class="price">
+            <p class="text-price">Стоимость, ₽:</p>
+          </div>
+          <div class="button">
           <button class="button-apply" type="submit">Применить</button>
           <button class="button-reset" type="reset">Сбросить</button>
           </div>
+          </div>
+        </div>
         </form>
           <div class="sorting">
           <p class="found">Найдено гостиниц: <span class="quantity-found">38</span>
@@ -128,8 +132,10 @@
             </li>
           </ul>
           </div>
+          <div class="catalog">
         <ul class="results-list">
           <li class="results-item">
+            <div class="price-card">
             <a class="results-card-link" href="hostel.html">
               <img class="results-card-image" src="images/hotels/hotel-1.jpg" wight="300" height="206" alt="Amara Resort & Spa">
             </a>
@@ -140,9 +146,12 @@
             <p class="results-card-price">От 4000 ₽</p>
             <a class="button results-card-button-more" href="#">подробнее</a>
             <a class="button results-card-button" href="#">В избранное</a>
+            <p class="stars">Звезды</p>
             <p class="results-card-rating">Рейтинг: 8,5</p>
+            </div>
           </li>
           <li class="results-item">
+            <div class="price-card">
             <a class="results-card-link" href="hostel.html">
               <img class="results-card-image" src="images/hotels/hotel-2.jpg" wight="300" height="206" alt="Desert Quail Inn">
             </a>
@@ -153,9 +162,12 @@
             <p class="results-card-price">От 3000 ₽</p>
             <a class="button results-card-button-more" href="#">подробнее</a>
             <a class="button results-card-button" href="#">В избранное</a>
+            <p class="stars">Звезды</p>
             <p class="results-card-rating">Рейтинг: 8,9</p>
+            </div>
           </li>
           <li class="results-item">
+            <div class="price-card">
             <a class="results-card-link" href="hostel.html">
               <img class="results-card-image" src="images/hotels/hotel-3.jpg" wight="300" height="206" alt="Villas at Poco Diablo">
             </a>
@@ -166,9 +178,12 @@
             <p class="results-card-price">От 2000 ₽</p>
             <a class="button results-card-button-more" href="#">подробнее</a>
             <a class="button results-card-button" href="#">В избранное</a>
+            <p class="stars">Звезды</p>
             <p class="results-card-rating">Рейтинг: 9,2</p>
+            </div>
           </li>
           <li class="results-item">
+            <div class="price-card">
             <a class="results-card-link" href="hostel.html">
               <img class="results-card-image" src="images/hotels/hotel-4.jpg" wight="300" height="206" alt="GreenTree Inn">
             </a>
@@ -179,10 +194,13 @@
             <p class="results-card-price">От 3000 ₽</p>
             <a class="button results-card-button-more" href="#">подробнее</a>
             <a class="button results-card-button" href="#">В избранное</a>
+            <p class="stars">Звезды</p>
             <p class="results-card-rating">Рейтинг: 9,2</p>
+            </div>
           </li>
         </ul>
         <button class="button pagination-show-more" type="button">Загрузить ещё</button>
+        </div>
         <div class="pagination">
         <ul class="pagination-list">
           <li class="pagination-item">
@@ -204,12 +222,15 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
-        <b class="number-hostel">Гостиниц на странице:</b>
+        <div class="number-pagination">
+        <p class="number-hostel">Гостиниц на странице:</p>
         <select class="select-number" aria-label="Сортировка">
           <option value="number">4</option>
         </select>
         </div>
-        <footer class="page-footer">
+        </div>
+    </main>
+      <footer class="page-footer">
           <section class="subscription">
             <h2 class="subscription-title">Подпишитесь на рассылку </h2>
             <p class="information">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -241,8 +262,7 @@
               <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12 </a>
               <a class="htmlacademy-link" href="https://htmlacademy.ru/">.htmlacademy </a>
             </section>
-      </div>
-    </main>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
