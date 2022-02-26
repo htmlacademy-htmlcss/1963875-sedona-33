@@ -337,16 +337,15 @@ body {
 }
 
 .results-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 18px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
-  width: 1056px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-
 }
 
 .results-item {
@@ -406,9 +405,19 @@ body {
 
 .stars {
   width: 91px;
+  height: 17px;
   margin: 0;
   padding: 0;
   margin-right: 49px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.star {
+  width: 18px;
+  height: 17px;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -428,8 +437,6 @@ body {
 .price-card {
   display: flex;
   flex-wrap: wrap;
-
-
 }
 
 .results-card-image {
