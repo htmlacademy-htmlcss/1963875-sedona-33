@@ -98,19 +98,27 @@ body {
   text-transform: uppercase;
 }
 
+.main-inner {
+  background-color: #FFFFFF;
+}
+
+.page-footer {
+  background-color: #FFFFFF;
+}
+
 .main-container {
   flex-grow: 1;
 }
 
 .page-container {
-  background-image: url("../images/catalog-background-1.jpg");
-  background-repeat: no-repeat;
-  background-color: #FFFFFF;
+  background-color: #E5E5E5;
   width: 1200px;
-  height: 408px;
   margin: 0;
   padding: 0;
-}
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  }
 
 .advantages-list {
   margin: 0;
@@ -129,142 +137,32 @@ body {
   height: 384px;
 }
 
+.advantages-item-extra {
+  margin: 0;
+  padding: 0;
+  padding-top: 184px;
+  padding-bottom: 79px;
+  width: 400px;
+}
+
 .advantages-net {
   margin: 0;
   padding: 0;
   text-align: center;
   display: flex;
   justify-content: space-between;
-
 }
 
-.filters-group-hostels {
-  display: flex;
-}
-
-.sorting {
- display: flex;
-}
-
-.results-list {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 16px;
-  line-height: 21px;
-  font-weight: 700;
-  width: 1056px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 53px;
-  margin-left: 72px;
-
-
-}
-
-.results-item {
-  display: flex;
-  flex-wrap: wrap;
-  width: 340px;
-  margin: 0;
-  padding: 0;
-}
-
-.results-card-link {
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-
-.results-card-title {
-  margin: 0;
-  padding: 0;
-}
-
-.results-card {
-  font-size: 18px;
-  line-height: 23px;
-  text-align: left;
-  color: #333333;
-  font-weight: 400;
-  width: 133px;
-  height: 23px;
-  margin: 0;
-  padding: 0;
-  margin-top: 16px;
-  margin-left: 20px;
-  margin-right: 25px;
-}
-
-.results-card-button-more {
-  color: #FFFFFF;
-  background-color: #756257;
-  text-transform: uppercase;
+.inner-header {
+  background-image: url("../images/catalog-background-1.jpg");
   background-repeat: no-repeat;
-  text-decoration: none;
-  text-align: center;
-  width: 133px;
-  margin-top: 16px;
-  margin-left: 20px;
-  padding-top: 9px;
-  padding-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  padding-top: 35px;
+  padding-left: 71px;
+  padding-right: 72px;
+  padding-bottom: 68px;
 
-
-}
-
-.results-card-button {
-  color: #FFFFFF;
-  background-color: #83B3D3;
-  text-transform: uppercase;
-  background-repeat: no-repeat;
-  text-decoration: none;
-  text-align: center;
-  width: 133px;
-  margin-top: 16px;
-  margin-left: 26px;
-  padding-top: 9px;
-  padding-bottom: 10px;
-}
-
-.results-card-rating {
-  font-weight: 400;
-  color: #333333;
-  background-color: #F2F2F2;
-  background-repeat: no-repeat;
-  text-align: center;
-  width: 160px;
-  padding-top: 9px;
-  padding-bottom: 10px;
-  margin-top: 16px;
-  margin-left: 160px;
-
-}
-
-.pagination-show-more {
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
-  color: #ffffff;
-  background-color: #83B3D3;
-  font-weight: 700;
-  background-repeat: no-repeat;
-  text-transform: uppercase;
-  width: 620px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  margin: 30px 290px 60px 290px;
-}
-
-.footer-social {
-  height: 120px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-phone {
-  width: 720px;
 }
 
 .inner-header-title {
@@ -273,10 +171,10 @@ body {
   text-align: left;
   color: #FFFFFF;
   font-weight: 700;
+  height: 68px;
   margin: 0;
   padding: 0;
-  padding-left: 71px;
-  padding-top: 35px;
+  margin-bottom: 5px;
 }
 
 .breadcrumbs {
@@ -285,12 +183,15 @@ body {
   text-align: left;
   color: #FFFFFF;
   font-weight: 400;
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
-  padding-left: 73px;
-  padding-top: 8px;
+  margin-bottom: 45px;
   list-style-type: none;
+}
+
+.filters-group-hostels {
+  display: flex;
 }
 
 .filters-fieldset {
@@ -301,9 +202,7 @@ body {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  margin-left: 71px;
-  margin-top: 45px;
-
+  margin-right: 67px;
 }
 
 .filters-list {
@@ -329,9 +228,28 @@ body {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  margin-left: 67px;
-  margin-top: 45px;
-  margin-right: 535px;
+  margin-right: 167px;
+}
+
+.price {
+  margin: 0;
+  padding: 0;
+}
+
+.text-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-right: 252px;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
 }
 
 .button-apply {
@@ -343,7 +261,9 @@ body {
   height: 48px;
   margin: 0;
   padding: 0;
-  margin-top: 105px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+
   }
 
 .button-reset {
@@ -352,18 +272,40 @@ body {
   height: 23px;
   margin: 0;
   padding: 0;
-  margin-top: 173px;
-
 }
+
+.sorting {
+  background-color: #FFFFFF;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 44px;
+  padding-bottom: 53px;
+  padding-left: 71px;
+  padding-right: 72px;
+ }
 
 .found {
   font-size: 30px;
   line-height: 39px;
   text-align: left;
   color: #000000;
+  text-transform: uppercase;
   font-weight: 700;
-  margin-top: 133px;
-  margin-left: 71px;
+  height: 39px;
+  margin: 0;
+  padding: 0;
+  margin-right: 192px;
+
+}
+
+.select-control {
+  margin: 0;
+  padding: 0;
+  width: 287px;
+  height: 48px;
+  margin-right: 81px;
+
 }
 
 .select-control-list {
@@ -374,18 +316,147 @@ body {
   font-weight: 400;
  }
 
+.view-list {
+   display: flex;
+   margin: 0;
+   padding: 0;
+   width: 160px;
+   list-style-type: none;
+ }
+
+.catalog {
+  margin: 0;
+  padding: 0;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 30px;
+ }
+
+.results-item:not(:nth-child(3)) {
+  margin-right: 18px;
+}
+
+.results-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 18px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.results-item {
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  width: 300px;
+
+}
+
+.results-card {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  color: #333333;
+  font-weight: 400;
+  width: 133px;
+  height: 23px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  margin-right: 25px;
+
+}
+
+.results-card-button-more {
+  color: #FFFFFF;
+  background-color: #756257;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  text-align: center;
+  width: 133px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 26px;
+  margin-right: 26px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+
+}
+
+.results-card-button {
+  color: #FFFFFF;
+  background-color: #83B3D3;
+  text-transform: uppercase;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  text-align: center;
+  width: 133px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 26px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+.stars {
+  width: 91px;
+  height: 17px;
+  margin: 0;
+  padding: 0;
+  margin-right: 49px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.star {
+  width: 18px;
+  height: 17px;
+  margin: 0;
+  padding: 0;
+}
 
 
-.results-card-link {
+.results-card-rating {
+  font-weight: 400;
+  color: #333333;
+  background-color: #F2F2F2;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 160px;
+  margin: 0;
+  padding: 0;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+.price-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.results-card-image {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.results-card-title {
   font-size: 24px;
   line-height: 31px;
   text-align: left;
   color: #000000;
   font-weight: 700;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  margin-right: 89px;
 }
-
-
 
 .results-card-price {
   font-size: 18px;
@@ -393,6 +464,30 @@ body {
   text-align: left;
   color: #333333;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.pagination-show-more {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #83B3D3;
+  font-weight: 700;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  width: 620px;
+  margin: 0;
+  padding: 0;
+  margin-top: 64px;
+  margin-bottom: 30px;
+  margin-left: 218px;
+  margin-right: 218px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+
 }
 
 .pagination {
@@ -404,6 +499,7 @@ body {
  margin: 0;
  padding: 0;
  margin-left: 72px;
+ margin-right: 300px;
  list-style-type: none;
 
 }
@@ -438,19 +534,45 @@ body {
   text-align: left;
   font-weight: 400;
   color: #333333;
-  margin-left: auto;
+  width: 175px;
+  margin: 0;
+  padding: 0;
+  margin-top: 13px;
+  margin-bottom: 12px;
+  margin-right: 51px;
+
+}
+
+.number-pagination {
+  display: flex;
+  width: 386px;
+}
+
+.select-number {
+  width: 160px;
+  height: 48px;
 }
 
 .image-logo {
   background-image: url("../images/icon/Vector(3).svg"), url("../images/index-background.jpg");
   background-position: 0px 428px, 0px 0px;
   background-repeat: no-repeat;
+  text-align: center;
   height: 485px;
-  padding-top: 51px;
+  margin: 0;
+  padding: 0;
+
 }
 
-.image-logo {
-  text-align: center;
+.image-welcome {
+  margin-top: 51px;
+}
+
+.subject {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  padding: 63px 240px 80px 240px;
 }
 
 .description {
@@ -460,9 +582,10 @@ body {
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 20px;
-  margin-left: 240px;
   width: 720px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 31px;
 }
 
 .cause {
@@ -471,11 +594,16 @@ body {
   text-align: center;
   color: #333333;
   font-weight: 400;
-  margin-bottom: 80px;
+  margin: 0;
+  padding: 0;
 }
 
 .background-text {
   background-color: #83B3D3;
+  margin: 0;
+  padding: 0;
+  padding-top: 97px;
+  padding-bottom: 87px;
 }
 
 .advantages-title-block {
@@ -485,7 +613,11 @@ body {
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 98px;
+  margin: 0;
+  padding: 0;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 30px;
 }
 
 .nomber-block {
@@ -494,8 +626,9 @@ body {
   text-align: center;
   color: #FFFFFF;
   font-weight: 400;
-  margin-left: 75px;
-  margin-right: 75px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .advantages-description-block {
@@ -504,8 +637,10 @@ body {
   text-align: center;
   color: #FFFFFF;
   font-weight: 400;
-  margin-left: 90px;
-  margin-right: 90px;
+  margin: 0;
+  padding: 0;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .advantages-title {
@@ -515,9 +650,22 @@ body {
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 184px;
-
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
   }
+
+.advantages-title-some {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
+}
 
 .nomber {
   font-size: 18px;
@@ -525,6 +673,9 @@ body {
   text-align: center;
   color: #333333;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
 }
 
 .advantages-description {
@@ -533,8 +684,12 @@ body {
   text-align: center;
   color: #333333;
   font-weight: 400;
+  width: 250px;
+  margin: 0;
+  padding: 0;
   margin-left: 75px;
   margin-right: 75px;
+
 }
 
 .advantages-list-some {
@@ -545,11 +700,23 @@ body {
   list-style-type: none;
 }
 
+.advantages-item-some {
+  margin: 0;
+  padding: 0;
+  padding-top: 98px;
+  padding-bottom: 108px;
 
+}
 
 .search {
   text-align: center;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  padding-top: 91px;
+  padding-bottom: 93px;
+  padding-left: 240px;
+  padding-right: 240px;
 }
 
 .search-title {
@@ -561,9 +728,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  margin-top: 91px;
   margin-bottom: 29px;
-
 }
 
 .search-date {
@@ -574,9 +739,9 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  margin-left: 240px;
-  margin-right: 240px;
-  margin-bottom: 56px;
+  margin-bottom: 71px;
+  height: 52px;
+
 }
 
 .search a {
@@ -588,18 +753,35 @@ body {
   background-color: #756257;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
   padding-top: 15px;
   padding-bottom: 15px;
+  height: 60px;
+  width: 575px;
 }
 
 .subscription {
-  height: 411px;
+  margin: 0;
+  padding: 0;
+  padding-top: 73px;
+  padding-bottom: 140px;
+  padding-left: 200px;
+  padding-right: 200px;
+
+
 }
 
 .subscription-extra {
   background-image: url("../images/background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .subscription-title {
@@ -609,9 +791,12 @@ body {
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
+  width: 720px;
   margin: 0;
   padding: 0;
-  padding-top: 94px;
+  margin-bottom: 46px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .subscription-title-extra {
@@ -621,7 +806,9 @@ body {
   color: #FFFFFF;
   font-weight: 700;
   text-transform: uppercase;
-  padding-top: 73px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 29px;
 }
 
 .information {
@@ -630,10 +817,13 @@ body {
   text-align: center;
   color: #333333;
   font-weight: 400;
+  width: 720px;
   margin: 0;
-  padding-top: 29px;
-  padding-left: 240px;
-  padding-right: 240px;
+  padding: 0;
+  height: 52px;
+  margin-bottom: 46px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .information-extra {
@@ -643,14 +833,18 @@ body {
   color: #FFFFFF;
   font-weight: 400;
   margin: 0;
-  padding-top: 46px;
+  padding: 0;
+  height: 52px;
+  margin-bottom: 46px;
+
 }
 
 .subscription-form {
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 46px;
+  height: 60px;
+
 }
 
 .field {
@@ -671,9 +865,17 @@ body {
   height: 18px;
   margin: 0;
   padding: 0;
+  margin: 49px 61px 53px 72px;
   list-style-type: none;
-  padding-left: 72px;
-  padding-top: 49px;
+}
+
+.footer-social {
+  background-color: #FFFFFF;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-phone {
@@ -683,12 +885,21 @@ body {
   color: #000000;
   font-weight: 400;
   text-decoration: none;
-  padding-top: 40px;
+  height: 40px;
+  width: 720px;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .htmlacademy-link {
-  padding-top: 42px;
-  padding-right: 72px;
+  margin: 0;
+  padding: 0;
+  height: 34px;
+  width: 115px;
+  margin: 42px 72px 44px 53px;
+
 }
 
 .booking {
