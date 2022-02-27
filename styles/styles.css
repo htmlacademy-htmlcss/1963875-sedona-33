@@ -26,7 +26,7 @@ body {
   font-family: "PT Sans";
   font-style: normal;
   color: #242424;
-  background-color: #fbf7f4;
+  background-color: #E5E5E5;
 }
 
 .visually-hidden {
@@ -111,13 +111,10 @@ body {
 }
 
 .page-container {
-  background-color: #E5E5E5;
   width: 1200px;
   margin: 0;
   padding: 0;
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
   }
 
 .advantages-list {
@@ -329,7 +326,6 @@ body {
   padding: 0;
   padding-left: 72px;
   padding-right: 72px;
-  padding-bottom: 30px;
  }
 
 .results-item:not(:nth-child(3)) {
@@ -346,6 +342,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-bottom: 34px;
 }
 
 .results-item {
@@ -469,6 +466,15 @@ body {
   margin-bottom: 16px;
 }
 
+.button-download {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 218px;
+  padding-right: 218px;
+}
+
 .pagination-show-more {
   font-size: 20px;
   line-height: 26px;
@@ -481,10 +487,6 @@ body {
   width: 620px;
   margin: 0;
   padding: 0;
-  margin-top: 64px;
-  margin-bottom: 30px;
-  margin-left: 218px;
-  margin-right: 218px;
   padding-top: 17px;
   padding-bottom: 17px;
 
@@ -492,13 +494,17 @@ body {
 
 .pagination {
   display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 72px;
+  margin-right: 72px;
+  padding-top: 30px;
 }
 
 .pagination-list{
  display: flex;
  margin: 0;
  padding: 0;
- margin-left: 72px;
  margin-right: 300px;
  list-style-type: none;
 
@@ -865,17 +871,16 @@ body {
   height: 18px;
   margin: 0;
   padding: 0;
-  margin: 49px 61px 53px 72px;
   list-style-type: none;
 }
 
 .footer-social {
   background-color: #FFFFFF;
-  height: 120px;
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  padding: 40px 72px 40px 72px;
 }
 
 .footer-phone {
@@ -889,8 +894,6 @@ body {
   width: 720px;
   margin: 0;
   padding: 0;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 .htmlacademy-link {
@@ -898,8 +901,6 @@ body {
   padding: 0;
   height: 34px;
   width: 115px;
-  margin: 42px 72px 44px 53px;
-
 }
 
 .booking {
