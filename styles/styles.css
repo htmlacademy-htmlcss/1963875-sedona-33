@@ -85,6 +85,7 @@ body {
   font-size: 20px;
   line-height: 26px;
   text-decoration: none;
+
 }
 
 .user-navigation .navigation-link {
@@ -96,6 +97,36 @@ body {
   color:#FFFFFF ;
   background-color: #756257 ;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  width: 130px;
+  height: 20px;
+  text-align: center;
+}
+
+.extra-search {
+  margin: 0;
+  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.extra-favorite {
+  margin: 0;
+  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-right: 20px;
 }
 
 .main-inner {
@@ -137,7 +168,7 @@ body {
 .advantages-item-extra {
   margin: 0;
   padding: 0;
-  padding-top: 184px;
+  padding-top: 89px;
   padding-bottom: 79px;
   width: 400px;
 }
@@ -185,6 +216,18 @@ body {
   padding: 0;
   margin-bottom: 45px;
   list-style-type: none;
+}
+
+.breadcrumbs-link {
+  margin: 0;
+  padding: 0;
+  margin-right: 11px;
+}
+
+.arrow {
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
 }
 
 .filters-group-hostels {
@@ -319,7 +362,20 @@ body {
    padding: 0;
    width: 160px;
    list-style-type: none;
- }
+}
+
+.view-item {
+  margin: 0;
+  padding: 0;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.view-item:not(:nth-child(3)) {
+  margin-right: 8px;
+}
 
 .catalog {
   margin: 0;
@@ -649,6 +705,30 @@ body {
   padding-right: 90px;
 }
 
+.house {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  margin-left: 163px;
+  margin-right: 162px;
+}
+
+.burger {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  margin-left: 163px;
+  margin-right: 163px;
+}
+
+.present {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  margin-left: 168px;
+  margin-right: 168px;
+}
+
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
@@ -871,7 +951,13 @@ body {
   height: 18px;
   margin: 0;
   padding: 0;
+  margin-top: 9px;
+  margin-bottom: 13px;
   list-style-type: none;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 29px;
 }
 
 .footer-social {
