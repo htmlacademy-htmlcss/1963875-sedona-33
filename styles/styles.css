@@ -165,10 +165,27 @@ body {
   height: 384px;
 }
 
+.housing {
+  background-image: url("../images/icon/house.svg");
+  background-repeat: no-repeat;
+  background-position: center top 89px;
+}
+
+.food {
+  background-image: url("../images/icon/burger.svg");
+  background-repeat: no-repeat;
+  background-position: center top 89px;
+}
+
+.souvenirs {
+  background-image: url("../images/icon/present.svg");
+  background-repeat: no-repeat;
+  background-position: center top 89px;
+}
+
 .advantages-item-extra {
   margin: 0;
   padding: 0;
-  padding-top: 89px;
   padding-bottom: 79px;
   width: 400px;
 }
@@ -738,6 +755,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  margin-top: 184px;
   margin-bottom: 20px;
   }
 
@@ -989,13 +1007,7 @@ body {
   width: 115px;
 }
 
-.booking {
-  text-transform: uppercase;
-  font-size: 30px;
-  line-height: 40px;
-  font-weight: 700;
-  color: #000000;
-}
+
 
 .search-form {
   font-size: 18px;
@@ -1003,6 +1015,62 @@ body {
   font-weight: 700;
   color: #000000;
   background-color: #FFFFFF;
+  width: 575px;
+  margin: 0px;
+  padding: 0px;
+  padding: 54px 70px 70px 68px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-booking {
+  display: flex;
+  flex-wrap: wrap;
+  width: 577px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.booking {
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  width: 499px;
+  height: 67px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 8px;
+  margin-right: 23px;
+}
+
+.cross {
+  background-image: url("../images/icon/cross.svg");
+  background-repeat: no-repeat ;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  width: 53px;
+  height: 53px;
+
+}
+
+.form-date-in {
+  display: flex;
+  flex-wrap: wrap;
+  width: 575px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 32px;
+  margin-bottom: 11px;
+}
+
+.date-in {
+  width: 155px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .comment {
@@ -1010,9 +1078,76 @@ body {
   line-height: 40px;
   font-weight: 400;
   color: #FF5757;
+  width: 420px;
+  height: 29px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 157px;
+}
+
+.comment-extra {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #333333;
+  width: 420px;
+  height: 29px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 157px;
+}
+
+.form-date-out {
+  display: flex;
+  flex-wrap: wrap;
+  width: 575px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 11px;
+}
+
+.date-out {
+  width: 155px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-adults {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 56px;
+  margin-bottom: 40px;
+}
+
+.form-children {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.adults {
+  width: 155px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.children {
+  width: 54px;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  margin-right: 43px;
 }
 
 .button-mw {
+  width: 575px;
+  height: 60px;
   font-size: 20px;
   line-height: 40px;
   font-weight: 700;
@@ -1022,14 +1157,27 @@ body {
 }
 
 .input {
+  background-image: url("../images/icon/calendar.svg");
+  background-repeat: no-repeat ;
+  background-position: center right 19px;
+  width: 412px;
   font-size: 18px;
   line-height: 40px;
   font-weight: 700;
   color: #000000;
-  background-color: #F2F2F2
-  ;
+  background-color: #F2F2F2;
+}
+
+.input-extra {
+  width: 80px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #F2F2F2;
 }
 
 ::placeholder {
   color: #000000;
 }
+
