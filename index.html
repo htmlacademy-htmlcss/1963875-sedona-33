@@ -13,13 +13,13 @@
         </a>
         <nav class="navigation">
           <ul class="site-navigation">
-            <li class="navigation-item">
-              <a class="navigation-link" href="index.html">Главная</a>
+            <li class="navigation-item navigation-item-extra">
+              <a class="navigation-link active" href="index.html">Главная</a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-extra">
               <a class="navigation-link" href="about.html">О Седоне</a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-extra">
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
@@ -39,6 +39,12 @@
                 </svg>
                 <span class="visually-hidden">Понравилось</span>
               </a>
+              <div class="popover">
+                <button class="popover-button button">
+                  12
+                  <span class="visually-hidden">Закрыть</span>
+                </button>
+              </div>
             </li>
             <li class="navigation-item">
               <a class="navigation-link extra-class" href="#">
@@ -182,8 +188,8 @@
         <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
           <div class="form-booking">
             <p class="booking">поиск гостиницы в седоне</p>
-            <input class="cross" type="button">
           </div>
+          <button class="cross" type="button"></button>
           <div class="form-date-in">
             <p class="date-in">Дата заезда:</p>
             <input class="input" type="text" id="date" name="date" placeholder="27 апреля 2020">
@@ -199,9 +205,9 @@
           <div class="form-people">
             <div class="form-adults">
               <p class="adults">Взрослые:</p>
-              <input class="button-quantity" type="button" value="-">
+              <button class="button-quantity-minus" type="button"></button>
               <input class="input-extra" type="text" value="2">
-              <input class="button-quantity" type="button" value="+">
+              <button class="button-quantity-plus" type="button"></button>
             </div>
             <div class="form-children">
               <p class="children">Дети:</p>
@@ -221,9 +227,9 @@
                 </button>
                 <span class="tooltip-text" role="tooltip" id="tooltip-label">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
               </span>
-              <input class="button-quantity" type="button" value="-">
+              <button class="button-quantity-minus" type="button"></button>
               <input class="input-extra" type="text" value="1">
-              <input class="button-quantity" type="button" value="+">
+              <button class="button-quantity-plus" type="button"></button>
             </div>
           </div>
           <button class="button-mw" type="submit">найти</button>
