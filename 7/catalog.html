@@ -14,14 +14,14 @@
         </a>
         <nav class="navigation">
           <ul class="site-navigation">
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-extra">
               <a class="navigation-link" href="index.html">Главная</a>
             </li>
-            <li class="navigation-item">
+            <li class="navigation-item navigation-item-extra">
               <a class="navigation-link" href="about.html">О Седоне</a>
             </li>
-            <li class="navigation-item">
-              <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+            <li class="navigation-item navigation-item-extra">
+              <a class="navigation-link active navigation-link-current" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
           <ul class="user-navigation">
@@ -40,6 +40,12 @@
                 </svg>
                 <span class="visually-hidden">Понравилось</span>
               </a>
+              <div class="popover">
+                <button class="popover-button button">
+                  12
+                  <span class="visually-hidden">Закрыть</span>
+                </button>
+              </div>
             </li>
             <li class="navigation-item">
               <a class="navigation-link extra-class" href="#">
@@ -77,15 +83,24 @@
                 <ul class="filters-list">
                   <li class="filters-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Бассейн" checked> Бассейн </label>
+                      <input class="visually-hidden control-input" type="checkbox" name="Бассейн" checked>
+                      <span class="control-mark"></span>
+                    <span class="control-label">Бассейн</span>
+                    </label>
                   </li>
                   <li class="filters-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Парковка" checked> Парковка </label>
+                      <input class="visually-hidden control-input" type="checkbox" name="Парковка" checked>
+                      <span class="control-mark"></span>
+                    <span class="control-label">Парковка</span>
+                    </label>
                   </li>
                   <li class="filters-item">
                     <label class="control">
-                      <input class="control-input" type="checkbox" name="Wi-Fi"> Wi-Fi </label>
+                      <input class="visually-hidden control-input" type="checkbox" name="Wi-Fi" checked>
+                      <span class="control-mark"></span>
+                    <span class="control-label">Wi-Fi</span>
+                    </label>
                   </li>
                 </ul>
               </fieldset>
@@ -94,15 +109,24 @@
                 <ul class="filters-list">
                   <li class="filters-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="type-house" value="Гостиница" checked> Гостиница </label>
+                      <input class="visually-hidden control-input" type="radio" name="type-house" value="Гостиница" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Гостиница</span>
+                    </label>
                   </li>
                   <li class="filters-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="type-house" value="Мотель"> Мотель </label>
+                      <input class="visually-hidden control-input" type="radio" name="type-house" value="Мотель" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Мотель</span>
+                    </label>
                   </li>
                   <li class="filters-item">
                     <label class="control">
-                      <input class="control-input" type="radio" name="type-house" value="Апартаменты"> Апартаменты </label>
+                      <input class="visually-hidden control-input" type="radio" name="type-house" value="Апартаменты" checked>
+                      <span class="control-mark"></span>
+                      <span class="control-label">Апартаменты</span>
+                    </label>
                   </li>
                 </ul>
               </fieldset>
@@ -135,7 +159,8 @@
         </div>
         </form>
         <div class="sorting">
-          <p class="found">Найдено гостиниц: <span class="quantity-found">38</span>
+          <p class="found">Найдено гостиниц:
+          <span class="quantity-found">38</span>
           </p>
           <select class="select-control" aria-label="Сортировка">
             <ul class="select-control-list">
