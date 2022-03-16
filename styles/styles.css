@@ -96,11 +96,6 @@ body {
 
 .navigation-item-extra:not(:last-child) {
   margin-right: 34px;
-
-}
-
-.navigation-item a:hover {
-  border-bottom: 2px solid #756257;
 }
 
 .navigation-item a.active {
@@ -669,6 +664,10 @@ body {
   border-radius: 4px;
 }
 
+.block {
+  background-color: #7DB54F;
+}
+
 .stars {
   width: 91px;
   height: 17px;
@@ -836,6 +835,9 @@ body {
 }
 
 .select-number {
+  font-family: PT Sans;
+  font-size: 18px;
+  font-weight: 400;
   width: 160px;
   height: 48px;
 }
@@ -1425,19 +1427,20 @@ body {
 }
 
 .tooltip-icon {
-
   width: 100%;
   height: 100%;
   display: block;
 }
 
 .tooltip-text {
+  position: relative;
   background-color: #333333;
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   text-transform: none;
+  margin-top: 15px;
   padding: 15px 18px 18px 22px;
   border-radius: 10px;
   display: block;
@@ -1445,6 +1448,14 @@ body {
   left: 50%;
   transform: translateX(-50%);
   display: none;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  left: 120px; bottom: 133px;
+  border: 8px solid transparent;
+  border-bottom: 9px solid #333333;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
