@@ -94,6 +94,14 @@ body {
   text-decoration: none;
 }
 
+.navigation-link:hover {
+ color: #756257;
+}
+
+.navigation-link:active {
+ color: #D6D0CC;
+}
+
 .navigation-item-extra:not(:last-child) {
   margin-right: 34px;
 }
@@ -105,7 +113,7 @@ body {
 .user-navigation .navigation-link {
   min-width: 16px;
   min-height: 22px;
-  border-radius: 4px;
+
 }
 
 .navigation-item {
@@ -152,6 +160,25 @@ body {
   width: 130px;
   height: 20px;
   text-align: center;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.extra-class:hover {
+  background-color: #615048;
+}
+
+.extra-class:active {
+  color: #90847F;
+}
+
+.extra-class:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
 }
 
 .extra-search {
@@ -280,6 +307,20 @@ body {
   list-style-type: none;
 }
 
+.breadcrumbs-item:hover {
+  color: #CADBE9;
+}
+
+.breadcrumbs-item:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+}
+
+.breadcrumbs-item:active {
+  color: #99B6D1;
+}
+
+
 .breadcrumbs-link {
   margin: 0;
   padding: 0;
@@ -337,6 +378,20 @@ body {
   height: 20px;
   border-radius: 4px;
   background-color: #FFFFFF;
+}
+
+.control-mark:hover {
+  background-color: #C4D1E1;
+}
+
+.control-mark:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+  background-color: #C4D1E1;
+}
+
+.control-mark:active {
+  background-color: #8297A7;
 }
 
 .control-label {
@@ -428,11 +483,12 @@ body {
   background: #ffffff;
   border-radius: 5px;
   cursor: pointer;
+  border: none;
 }
 
 .toggle-min {
   top: -8px;
-  left: -10px;
+  left: 0px;
 }
 
 .toggle-max {
@@ -456,12 +512,14 @@ body {
   font-weight: 400;
   color: #978C8C;
   width: 143px;
-  background-image: url("../images/icon/frame-center.svg");
-  background-repeat: no-repeat;
   margin: 0px;
   padding: 0px;
   padding-top: 14px;
   padding-bottom: 11px;
+}
+
+.frame-center {background-image: url("../images/icon/frame-center.svg");
+  background-repeat: no-repeat;
 }
 
 .range-input {
@@ -507,6 +565,20 @@ body {
   border: none;
 }
 
+.button-apply:hover {
+  background-color: #68A2CA;
+}
+
+.button-apply:focus {
+  box-shadow: inset 0 0 0 3px #FFFFFF;
+  outline: none;
+  background-color: #68A2CA;
+}
+
+.button-apply:active {
+  color: #95BEDA;
+}
+
 .button-reset {
   font-family: PT Sans;
   font-size: 18px;
@@ -518,6 +590,20 @@ body {
   padding: 0;
   background-color: transparent;
   border: none;
+}
+
+.button-reset:hover {
+  color: #B2B3B4;
+}
+
+.button-reset:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+  border-radius: 4px;
+}
+
+.button-reset:active {
+  color: #747777;
 }
 
 .sorting {
@@ -648,6 +734,16 @@ body {
   border-radius: 4px;
 }
 
+.results-card-button-more:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+  background-color: #615048;
+}
+
+.results-card-button-more:active {
+  color: #90847F;
+}
+
 .results-card-button {
   color: #FFFFFF;
   background-color: #83B3D3;
@@ -664,8 +760,28 @@ body {
   border-radius: 4px;
 }
 
+.results-card-button:focus {
+  box-shadow: inset 0 0 0 3px #756257;
+  outline: none;
+  background-color: #68A2CA;
+}
+
+.results-card-button:active {
+  color: #95BEDA;
+}
+
 .block {
   background-color: #7DB54F;
+}
+
+.block:focus {
+  box-shadow: inset 0 0 0 3px #756257;
+  outline: none;
+  background-color: #6C9E42;
+}
+
+.block:active {
+  color: #98BB7B;
 }
 
 .stars {
@@ -770,6 +886,20 @@ body {
   border: none;
 }
 
+.pagination-show-more:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-show-more:focus {
+  box-shadow: inset 0 0 0 3px #756257;
+  outline: none;
+  background-color: #68A2CA;
+}
+
+.pagination-show-more:active {
+  color: #95BEDA;
+}
+
 .pagination {
   display: flex;
   margin: 0;
@@ -785,7 +915,20 @@ body {
  padding: 0;
  margin-right: 300px;
  list-style-type: none;
+}
 
+.pagination-link:hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:focus {
+  box-shadow: inset 0 0 0 3px #756257;
+  outline: none;
+  border-radius: 4px;
+}
+
+.pagination-link:active {
+  color: #95BEDA;
 }
 
 .pagination-item:not(:last-child) {
@@ -1079,6 +1222,19 @@ body {
   border-radius: 10px;
 }
 
+.search a:hover {
+  background-color: #615048;
+}
+
+.search a:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+}
+
+.button-search:active {
+  color: #90847F;
+}
+
 .subscription {
   margin: 0;
   padding: 0;
@@ -1185,6 +1341,15 @@ body {
   border: none;
 }
 
+.field:hover {
+  background-color: #E6E6E6;
+}
+
+.field:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+}
+
 .subscription-button {
   font-family: PT Sans;
   font-size: 20px;
@@ -1197,6 +1362,19 @@ body {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border: none;
+}
+
+.subscription-button:hover {
+  background-color: #68A2CA;
+}
+
+.subscription-button:focus {
+  box-shadow: inset 0 0 0 3px #756257;
+  outline: none;
+}
+
+.subscription-button:active {
+  color: #95BEDA;
 }
 
 .social-list {
@@ -1315,6 +1493,20 @@ body {
   height: 53px;
   border-radius: 50%;
   border: none;
+}
+
+.cross:hover {
+  background-color: #E6E6E6;
+}
+
+.cross:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+  background-color: #E6E6E6;
+}
+
+.cross:active {
+  color: #E6E6E6;
 }
 
 .form-date-in {
@@ -1448,6 +1640,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   display: none;
+  box-shadow: 0 15px 30px #C5C5C5;
 }
 
 .tooltip-text::after {
@@ -1477,6 +1670,20 @@ body {
   padding: 0px;
   border: none;
   border-radius: 10px;
+}
+
+.button-mw:hover {
+  background-color: #68A2CA;
+}
+
+.button-mw:focus {
+  box-shadow: inset 0 0 0 3px #756257;
+  outline: none;
+  background-color: #68A2CA;
+}
+
+.button-mw:active {
+  color: #95BEDA;
 }
 
 .input {
@@ -1516,7 +1723,6 @@ body {
   padding: 0px;
   border: none;
   background-color: #F2F2F2;
-
 }
 
 
@@ -1529,8 +1735,19 @@ body {
   padding: 0px;
   border: none;
   background-color: #F2F2F2;
+}
 
 
+
+.button-quantity-minus:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
+
+}
+
+.button-quantity-plus:focus {
+  box-shadow: inset 0 0 0 3px #83B3D3;
+  outline: none;
 }
 
 .input-extra {
