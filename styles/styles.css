@@ -360,6 +360,12 @@ body {
   border: none;
 }
 
+.filters-legend {
+  margin: 0;
+  padding: 0;
+
+}
+
 .filters-list {
   font-size: 18px;
   line-height: 23px;
@@ -387,6 +393,8 @@ body {
   left: 0;
   width: 20px;
   height: 20px;
+  margin: 0;
+  padding: 0;
   border-radius: 4px;
   background-color: #FFFFFF;
 }
@@ -447,8 +455,13 @@ body {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  margin-right: 167px;
+  margin-right: 163px;
   border: none;
+}
+
+.filters-title {
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-filter-group {
@@ -465,13 +478,16 @@ body {
   text-align: left;
   color: #FFFFFF;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
+  margin-right: 170px;
 }
 
 .range {
   margin: 0px;
   padding: 0px;
   margin-top: 34px;
-  margin-bottom: 32px;
+  margin-bottom: 29px;
 }
 
 .range-scale {
@@ -504,7 +520,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  right: -10px;
+  right: -8px;
 }
 
 .range-wrapper-inputs {
@@ -639,6 +655,7 @@ body {
   height: 39px;
   margin: 0;
   padding: 0;
+  margin-top: 8px;
 }
 
 .select-control {
@@ -650,9 +667,11 @@ body {
   padding: 0;
   width: 287px;
   height: 48px;
+  margin-top: 2px;
   margin-right: 81px;
   margin-left: 191px;
-  padding-left: 19px;
+  padding-left: 16px;
+  border-color: #E6E6E6;
 }
 
 .select-control-list {
@@ -721,14 +740,15 @@ body {
 .results-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
-  gap: 18px;
+  row-gap: 6px;
+  column-gap: 18px;
   font-size: 16px;
   line-height: 21px;
   font-weight: 700;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-bottom: 34px;
+  padding-bottom: 30px;
 }
 
 .results-item {
@@ -749,26 +769,31 @@ body {
   height: 23px;
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
   margin-right: 25px;
 
 }
 
-.results-card-button-more {
-  color: #FFFFFF;
-  background-color: #756257;
-  text-transform: uppercase;
-  background-repeat: no-repeat;
+.results-card-more {
   text-decoration: none;
-  text-align: center;
+  background-color: #756257;
+  background-repeat: no-repeat;
   width: 133px;
+  height: 37px;
   margin: 0;
   padding: 0;
-  margin-bottom: 26px;
+  margin-bottom: 17px;
   margin-right: 26px;
-  padding-top: 9px;
-  padding-bottom: 10px;
   border-radius: 4px;
+}
+
+.button-more {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 9px;
 }
 
 .results-card-button-more:focus {
@@ -782,19 +807,27 @@ body {
 }
 
 .results-card-button {
-  color: #FFFFFF;
   background-color: #83B3D3;
-  text-transform: uppercase;
   background-repeat: no-repeat;
   text-decoration: none;
-  text-align: center;
-  width: 133px;
+  width: 140px;
+  height: 37px;
   margin: 0;
   padding: 0;
-  margin-bottom: 26px;
-  padding-top: 9px;
-  padding-bottom: 10px;
   border-radius: 4px;
+}
+
+.results-card-extra {
+  background-color: #7DB54F;
+}
+
+.button-extra {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 9px;
 }
 
 .results-card-button:focus {
@@ -838,6 +871,10 @@ body {
   padding: 0;
 }
 
+.star:not(:last-child) {
+  margin-right: 2px;
+
+}
 
 .results-card-rating {
   font-weight: 400;
@@ -845,6 +882,7 @@ body {
   background-color: #F2F2F2;
   background-repeat: no-repeat;
   text-align: center;
+  text-transform: uppercase;
   width: 160px;
   margin: 0;
   padding: 0;
@@ -860,7 +898,7 @@ body {
 .results-card-image {
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 
 .results-card-link {
@@ -888,7 +926,7 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .button-download {
@@ -943,7 +981,7 @@ body {
   padding: 0;
   margin-left: 72px;
   margin-right: 72px;
-  padding-top: 30px;
+  padding-top: 28px;
 }
 
 .pagination-list{
@@ -1012,6 +1050,9 @@ body {
 .number-pagination {
   display: flex;
   width: 386px;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
 }
 
 .select-number {
@@ -1020,7 +1061,7 @@ body {
   font-weight: 400;
   width: 160px;
   height: 48px;
-  padding-left: 17px;
+  padding-left: 13px;
   border-color: #E6E6E6;
   border-radius: 4px;
 }
