@@ -23,7 +23,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-style: normal;
 	color: #242424;
 	background-color: #E5E5E5;
@@ -135,7 +135,7 @@ body {
 }
 
 .popover-button {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	color: #FFFFFF;
 	font-size: 10px;
 	line-height: 13px;
@@ -537,7 +537,7 @@ body {
 }
 
 .catalog-filter-label {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	color: #978C8C;
@@ -626,7 +626,7 @@ body {
 }
 
 .button-apply {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	color: #FFFFFF;
 	background-color: #83B3D3;
 	font-size: 16px;
@@ -708,7 +708,7 @@ body {
 }
 
 .select-control {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 23px;
 	font-weight: 400;
@@ -1026,7 +1026,7 @@ body {
 }
 
 .pagination-show-more {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 20px;
 	line-height: 26px;
 	text-align: center;
@@ -1137,7 +1137,7 @@ body {
 }
 
 .select-number {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	width: 160px;
@@ -1489,7 +1489,7 @@ body {
 }
 
 .field {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 26px;
 	font-weight: 400;
@@ -1515,7 +1515,7 @@ body {
 }
 
 .subscription-button {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 26px;
@@ -1880,7 +1880,7 @@ body {
 }
 
 .button-mw {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	width: 575px;
 	height: 60px;
 	font-size: 20px;
@@ -1911,7 +1911,7 @@ body {
 }
 
 .input {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	width: 352px;
 	font-size: 18px;
 	line-height: 40px;
@@ -1969,7 +1969,7 @@ body {
 }
 
 .input-extra {
-	font-family: "PT Sans";
+	font-family: "PT Sans", Arial, sans-serif;
 	width: 44px;
 	font-size: 18px;
 	line-height: 40px;
